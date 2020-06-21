@@ -1,0 +1,296 @@
+body {
+  background-color: blue;
+}
+
+.cleaner {
+  clear: both;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  border-bottom: 1px solid #dfdfdf;
+  margin: 0px auto;
+  margin-top: 2%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header a:active {
+  color: #4a87e4;
+}
+
+.header .navbar-brand {
+  font-size: 32px;
+}
+
+.header a {
+  font-size: 18px;
+  color: #000;
+}
+
+.header a:hover {
+  color: #000;
+}
+
+.nav-item a {
+  color: #000;
+}
+
+span {
+  color: #e0bd2e;
+}
+
+.slajder {
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 3%;
+}
+
+.naslov {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.kartice {
+  padding: 2%;
+  margin-top: 2%;
+}
+
+.kartice i {
+  text-align: center;
+  font-size: 60px;
+  padding: 2%;
+}
+
+.kartice h5 {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.kartice a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.kartice a:hover {
+  text-decoration: none;
+  color: #e0bd2e;
+}
+
+.kartica2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5%;
+  padding: 2%;
+}
+
+.kartica2 img {
+  height: 200px;
+}
+
+.info {
+  margin-top: 5%;
+  background-color: #3535a0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 3%;
+}
+
+.info p {
+  margin-top: 1%;
+  color: #fff;
+  font-size: 30px;
+}
+
+.info button {
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+.ztext {
+  background-color: #202020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #c2c2c2;
+  min-height: 200px;
+  border-bottom: 1px solid #979797;
+}
+
+.ztext .ztext1 {
+  margin-top: 4%;
+}
+
+.ztext .ztext1 li {
+  list-style-type: none;
+  font-size: 150%;
+}
+
+.ztext .ztext2 {
+  margin-top: 4%;
+}
+
+.ztext .ztext2 p {
+  font-size: 25px;
+}
+
+.ztext .ztext2 i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.ztext .ztext3 {
+  margin-top: 4%;
+}
+
+.ztext .ztext3 p {
+  font-size: 25px;
+}
+
+.ztext .ztext3 i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #202020;
+  min-height: 100px;
+  padding: 3%;
+}
+
+footer h4 {
+  color: #bdbdbd;
+  font-size: 18px;
+}
+
+.naslov1 {
+  background-color: #ececec;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 3%;
+  padding: 3%;
+}
+
+.naslov1 h1 {
+  margin-top: 1.5%;
+  color: #3535a0;
+}
+
+.seoopt {
+  margin: 0px auto;
+  width: 90%;
+}
+
+.seoopt h5 {
+  font-size: 25px;
+}
+
+.seootpvebsajta {
+  margin-top: 5%;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 3%;
+}
+
+.seootpvebsajta h5 {
+  font-size: 25px;
+  padding: 1%;
+}
+
+.seootpvebsajta button {
+  padding: 1%;
+}
+
+.sredinatext {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.sredinatext p {
+  padding: 5%;
+  text-align: justify;
+}
+
+.sredinatext1 {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.sredinatext1 h5 {
+  font-size: 25px;
+  padding: 1%;
+}
+
+.sredinatext2 {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 3%;
+}
+
+.sredinatext2 h5 {
+  font-size: 25px;
+  padding: 1%;
+}
+
+.onamasve {
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.onamasve h5 {
+  font-size: 30px;
+}
+
+.onamasve .onamasve1 {
+  margin-left: 4%;
+}
+
+form {
+  padding: 6%;
+}
+
+.aplikacija {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0px auto;
+  width: 80%;
+  margin-top: 3%;
+}
+
+.aplikacija h5 {
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.css.map */
