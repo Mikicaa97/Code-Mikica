@@ -14,7 +14,6 @@ body {
 }
 
 .header {
-  border-bottom: 1px solid #dfdfdf;
   margin: 0px auto;
   margin-top: 2%;
   width: 90%;
@@ -291,6 +290,53 @@ form {
 }
 
 .aplikacija h5 {
+  font-size: 25px;
+}
+
+.svefuter {
+  line-height: 150px;
+  color: #c2c2c2;
+}
+
+.svefuter footer {
+  background-color: #202020;
+}
+
+.svefuter .ufuter {
+  line-height: 5px;
+  border-top: 1px solid #c2c2c2;
+}
+
+.svefuter h5 {
+  font-size: 30px;
+}
+
+.svefuter p {
+  font-size: 20px;
+}
+
+.svefuter a {
+  text-decoration: none;
+  color: #c2c2c2;
+  font-size: 20px;
+}
+
+.svefuter a:hover {
+  color: #3535a0;
+  text-decoration: none;
+}
+
+.infosve {
+  color: #fff;
+  line-height: 70px;
+  margin-top: 3%;
+}
+
+.infosve div {
+  background-color: #3535a0;
+}
+
+.infosve h5 {
   font-size: 25px;
 }
 /*# sourceMappingURL=style.css.map */

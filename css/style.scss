@@ -11,7 +11,7 @@ body{
 }
 //SVE ZA HEADER
 .header{
-    border-bottom: 1px solid #dfdfdf;
+    //border-bottom: 1px solid #dfdfdf;
     margin: 0px auto;
     margin-top: 2%;
     width: 90%;
@@ -242,3 +242,42 @@ form{
     }
 }
 //KRAJ APLIKACIJE
+//NOVI FUTER
+.svefuter{
+    footer{
+        background-color: #202020;
+    }
+    line-height: 150px;
+    .ufuter{
+        line-height: 5px;
+        border-top: 1px solid #c2c2c2;
+    }
+    h5{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #c2c2c2;
+        font-size: 20px;
+    }
+    a:hover{
+        color: #3535a0;
+        text-decoration: none;
+    }
+    color: #c2c2c2;
+}
+//NOVI INFO
+.infosve{
+    color: #fff;
+    div{
+        background-color: #3535a0;
+    }
+    line-height: 70px;
+    margin-top: 3%;
+    h5{
+        font-size: 25px;
+    }
+}
