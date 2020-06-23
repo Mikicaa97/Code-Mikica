@@ -349,4 +349,17 @@ form {
     display: block;
   }
 }
+
+@media (max-width: 400px) {
+  .header b {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .slajder img {
+    width: 300px;
+    height: 300px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

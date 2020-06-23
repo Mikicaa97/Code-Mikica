@@ -292,3 +292,20 @@ form{
         display: block;
     }
 }
+//LOGO
+@media (max-width:400px){
+.header{
+       b{
+           display: block;
+       } 
+    }
+}
+//Slajder
+@media (max-width:400px){
+    .slajder{
+        img{
+            width: 300px;
+            height: 300px;
+        }
+    }
+}
