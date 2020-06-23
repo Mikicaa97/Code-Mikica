@@ -301,7 +301,15 @@ form{
     }
 }
 //Slajder
-@media (max-width:400px){
+@media (max-width:500px){
+    .slajder{
+        img{
+            width: 400px;
+            height: 300px;
+        }
+    }
+}
+@media (max-width:350px){
     .slajder{
         img{
             width: 300px;
