@@ -80,6 +80,7 @@ span{
     justify-content: space-around;
     margin-top: 5%;
     padding: 2%;
+    text-align: justify;
     img{
         height: 200px;
     }
@@ -207,6 +208,7 @@ footer{
     width: 90%;
     margin: 0px auto;
     margin-top: 3%;
+    text-align: justify;
     h5{
         font-size: 25px;
         padding: 1%;
@@ -219,6 +221,7 @@ footer{
     margin-top: 3%;
     display: flex;
     justify-content: space-around;
+    text-align: justify;
     h5{
         font-size: 30px;
     }
@@ -237,6 +240,7 @@ form{
     margin: 0px auto;
     width: 80%;
     margin-top: 3%;
+    text-align: justify;
     h5{
         font-size: 25px;
     }
@@ -279,5 +283,12 @@ form{
     margin-top: 3%;
     h5{
         font-size: 25px;
+    }
+}
+//RESPONSIVE
+//Izrada web sajta
+@media (max-width:750px){
+    .onamasve{
+        display: block;
     }
 }

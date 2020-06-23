@@ -99,6 +99,7 @@ span {
       justify-content: space-around;
   margin-top: 5%;
   padding: 2%;
+  text-align: justify;
 }
 
 .kartica2 img {
@@ -248,6 +249,7 @@ footer h4 {
   width: 90%;
   margin: 0px auto;
   margin-top: 3%;
+  text-align: justify;
 }
 
 .sredinatext2 h5 {
@@ -264,6 +266,7 @@ footer h4 {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  text-align: justify;
 }
 
 .onamasve h5 {
@@ -287,6 +290,7 @@ form {
   margin: 0px auto;
   width: 80%;
   margin-top: 3%;
+  text-align: justify;
 }
 
 .aplikacija h5 {
@@ -338,5 +342,11 @@ form {
 
 .infosve h5 {
   font-size: 25px;
+}
+
+@media (max-width: 750px) {
+  .onamasve {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
